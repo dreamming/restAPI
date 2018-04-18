@@ -31,4 +31,15 @@ public class Greeting implements Serializable {
     private Integer userId;
     private String content;
     private String Ssid;
+    private String link;
+
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
 }
